@@ -16,7 +16,7 @@ var trace2 = {
   type: "bar"
 };
 
-// Combining both traces
+// // Combining both traces
 var traceData = [trace1, trace2];
 
 // Apply the group barmode to the layout

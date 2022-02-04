@@ -6,6 +6,8 @@ var canada = Object.values(data.canada);
 // Create an array of music provider labels
 var labels = Object.keys(data.us);
 
+console.log(us)
+
 // Display the default plot
 function init() {
   var data = [{

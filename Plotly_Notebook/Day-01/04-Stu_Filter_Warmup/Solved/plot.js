@@ -17,13 +17,13 @@ var filteredCities = top15Cities.filter(filterCities);
 console.log(filteredCities);
 
 // 3. Use the map method with the arrow function to return all the filtered cities.
-var cities = filteredCities.map(city => city.City);
+var cities = filteredCities.map(data => data.City);
 
 //  Check your filtered cities
 console.log(cities);
 
 // 4. Use the map method with the arrow function to return all the filtered cities population.
-var population = filteredCities.map(city => city.population);
+var population = filteredCities.map(data => data.population);
 
 //  Check the populations of your filtered cities
 console.log(population);
