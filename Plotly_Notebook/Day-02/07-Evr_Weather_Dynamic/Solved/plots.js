@@ -12,7 +12,7 @@ function handleSubmit() {
 
 
 function buildPlot(city) {
-  var apiKey = "c21cb5211f88f8972274cc8d80b7c30f";
+  var apiKey = "";
 
   let url = `https://api.openweathermap.org/data/2.5/forecast?q=${city}&appid=${apiKey}&units=imperial`
 
